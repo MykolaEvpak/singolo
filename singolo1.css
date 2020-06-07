@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "Lato";
+    src: url("assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: "LatoBold";
+    src: url("assets/fonts/Lato-Bold.ttf");
+}
+
+/* @font-face {
+    font-family: "LatoRegular";
+    src: url("assets/fonts/Lato-Regular.ttf");
+} */
+
+/* @font-face {
+    font-family: "LatoThin";
+    src: url("assets/fonts/Lato-Thin.ttf");
+} */
+
+/* @font-face {
+    font-family: "LatoBlack";
+    src: url("assets/fonts/Lato-Black.ttf");
+} */
+
+* {
+    font-family: "Lato";
+}
+
+.header {
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    height: 89px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topnav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 8px;
+}
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.topnav a:not(:first-child):before {
+    content: "\00b7";
+    margin-left: 13px;
+    margin-right: 13px;
+    color: #696666;
+}
+
+.topnav a:hover {
+    color: #f06c64;;
+}
+  
+.topnav a.active {
+    color: #f06c64;
+  }
+
+.asterix {
+    color: #f06c64;
+}
+
+.bottomHeaderLine {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+}
+
+.slider {
+    width: 1020px;
+    height: 594px;
+    background-color: #f06c64;
+}
+
+.sliderBottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+}
+
+.services {
+    width: 1020px;
+    height: 494px;
+    background-color: #f2f2f2;
+}
+
+.services .description {
+    padding: 40px;
+    padding-top: 66px;
+    padding-bottom: 28px;
+    color: #767e9e;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.description .title {
+    font-size: 30px;
+    line-height: 0px;
+    color: #666d89;
+    font-family: "LatoBold";
+}
+
+.services .gridContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: grid;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 320px 320px 320px;
+    grid-row-gap: 3px;
+}
+
+.service {
+    display: flex;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 400;
+} 
+
+.service .title {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    font-family: "LatoBold";
+}
+
+.service .explanation {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.details {
+    font-family: "LatoBold";
+    text-align: justify;
+    margin-top: 6px;
+}
+
+.servicesBottom {
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.icon {
+    display: block;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 56px;
+    width: 56px;
+}
+
+.pen {
+    background-image: url(/assets/images/pen.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.bubble {
+    background-image: url(/assets/images/bubble.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 11px;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.bulb {
+    background-image: url(/assets/images/bulb.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 15px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.heart {
+    background-image: url(/assets/images/heart.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 11px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.phone {
+    background-image: url(/assets/images/phone.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 15px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.star {
+    background-image: url(/assets/images/star.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 36px;
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
