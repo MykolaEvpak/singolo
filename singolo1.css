@@ -8,20 +8,20 @@
     src: url("assets/fonts/Lato-Bold.ttf");
 }
 
-/* @font-face {
+@font-face {
     font-family: "LatoRegular";
     src: url("assets/fonts/Lato-Regular.ttf");
-} */
+}
 
-/* @font-face {
+@font-face {
     font-family: "LatoThin";
     src: url("assets/fonts/Lato-Thin.ttf");
-} */
+}
 
-/* @font-face {
+@font-face {
     font-family: "LatoBlack";
     src: url("assets/fonts/Lato-Black.ttf");
-} */
+}
 
 * {
     font-family: "Lato";
@@ -34,7 +34,7 @@
     display: flex;
 }
 
-.logo {
+.logo-container {
     width: 200px;
     height: 89px;
     font-size: 25px;
@@ -44,6 +44,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.logo {
+    font-family: "LatoRegular";
 }
 
 .topnav {
@@ -108,8 +112,8 @@
 
 .services .description {
     padding: 40px;
-    padding-top: 66px;
-    padding-bottom: 28px;
+    padding-top: 68px;
+    padding-bottom: 26px;
     color: #767e9e;
     font-weight: 300;
     font-size: 18px;
