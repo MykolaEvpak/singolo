@@ -86,7 +86,7 @@
     color: #f06c64;
 }
 
-.bottomHeaderLine {
+.bottom-header-line {
     width: 1020px;
     height: 6px;
     background-color: #323746;
@@ -98,7 +98,7 @@
     background-color: #f06c64;
 }
 
-.sliderBottom {
+.slider-bottom {
     width: 1020px;
     height: 6px;
     background-color: #ea676b;
@@ -128,7 +128,7 @@
     font-family: "LatoBold";
 }
 
-.services .gridContainer {
+.services .grid-container {
     padding-left: 40px;
     padding-right: 40px;
     display: grid;
@@ -164,7 +164,7 @@
     margin-top: 6px;
 }
 
-.servicesBottom {
+.services-bottom-line {
     width: 1020px;
     height: 6px;
     background-color: #ffffff;
@@ -235,4 +235,23 @@
     margin-left: 11px;
     margin-top: 11px;
     margin-right: 10px;
+}
+
+.chev-left {
+    background-image: url(/assets/images/chev.png);
+    position: absolute;
+    width: 16px;
+    height: 27px;
+    margin-top: 281px;
+    margin-left: 42px;
+}
+
+.chev-right {
+    background-image: url(/assets/images/chev.png);
+    position: absolute;
+    transform: rotate(180deg);
+    width: 16px;
+    height: 27px;
+    margin-top: 281px;
+    margin-left: 964px;
 }
