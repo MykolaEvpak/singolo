@@ -279,7 +279,7 @@
     z-index: 2;
 }
 
-.vertical-phone-screen {
+.phone-screen {
     position: absolute;
     width: 189px;
     height: 332px;
@@ -347,3 +347,29 @@
     z-index: 7;
 }
 
+.horizontal-phone-container {
+    position: absolute;
+    margin-left: 882px;
+    margin-top: 173px;
+    transform: rotate(90deg);
+}
+
+.horizontal-screen-background {
+    background-image: url(/assets/images/Layer5.png);
+    width: 580px;
+    height: 580px;
+    margin-top: -123px;
+    margin-left: -118px;
+    transform: rotate(-90deg);
+}
+
+.horizontal-phone-shadow {
+    background-image: url(/assets/images/ShadowHorizontal.png);
+    position: absolute;
+    width: 483px;
+    height: 240px;
+    z-index: 1;
+    transform: rotate(90deg);
+    margin-left: -122px;
+    margin-top: 96px;
+}
