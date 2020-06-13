@@ -34,20 +34,25 @@
     display: flex;
 }
 
-.logo-container {
+.logo {
+    font-family: "LatoRegular";
     width: 200px;
     height: 89px;
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: 700;
     text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.logo {
-    font-family: "LatoRegular";
+.logo > h1 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.asterix {
+    font-size: 25px;
+    color: #f06c64;
 }
 
 .topnav {
@@ -79,10 +84,6 @@
 }
   
 .topnav a.active {
-    color: #f06c64;
-  }
-
-.asterix {
     color: #f06c64;
 }
 
@@ -197,6 +198,7 @@
     margin-top: 13px;
     margin-right: 10px;
 }
+
 .bulb {
     background-image: url(/assets/images/bulb.png);
     background-repeat: no-repeat;
@@ -237,28 +239,29 @@
     margin-right: 10px;
 }
 
-.chev-left {
+.chev {
     background-image: url(/assets/images/chev.png);
-    position: absolute;
     width: 16px;
     height: 27px;
+}
+
+.chev.left {
+    position: absolute;
     margin-top: 281px;
     margin-left: 42px;
 }
 
-.chev-right {
-    background-image: url(/assets/images/chev.png);
+.chev.right {
     position: absolute;
     transform: rotate(180deg);
-    width: 16px;
-    height: 27px;
     margin-top: 281px;
     margin-left: 964px;
 }
 
-.chev-left:hover,  .chev-right:hover{
+.chev:hover {
     border-radius: 4px;
-    border: 1px solid #f2f2f2;
+    cursor: pointer;
+    opacity: 40%;
 }
 
 .vertical-phone-container {
