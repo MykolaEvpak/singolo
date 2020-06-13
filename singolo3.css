@@ -230,6 +230,11 @@ textarea:focus, input:focus {
     margin-left: 7px;
 }
 
+.social-media .icon:hover {
+    border: 1px solid  #f0d8d9;
+    cursor: pointer;
+}
+
 .facebook {
     background-image: url(/assets/images/facebook.png);
     background-repeat: no-repeat;
