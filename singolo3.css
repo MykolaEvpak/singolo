@@ -8,21 +8,6 @@
     src: url("assets/fonts/Lato-Bold.ttf");
 }
 
-@font-face {
-    font-family: "LatoRegular";
-    src: url("assets/fonts/Lato-Regular.ttf");
-}
-
-@font-face {
-    font-family: "LatoThin";
-    src: url("assets/fonts/Lato-Thin.ttf");
-}
-
-@font-face {
-    font-family: "LatoBlack";
-    src: url("assets/fonts/Lato-Black.ttf");
-}
-
 * {
     font-family: "Lato";
 }
@@ -184,15 +169,8 @@ textarea:focus, input:focus {
     margin-top: 7px;
 }
 
-.row {
+.row, .row a {
     display: flex;
-    font-size: 12px;
-    line-height: 22px;
-    color: #f0d8d9;
-    font-weight: 400;
-}
-
-.row a {
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
