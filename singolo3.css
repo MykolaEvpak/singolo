@@ -192,6 +192,14 @@ textarea:focus, input:focus {
     font-weight: 400;
 }
 
+.row a {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 .quote-bottom-line {
     width: 1020px;
     height: 6px;
