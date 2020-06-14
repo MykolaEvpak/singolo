@@ -83,10 +83,12 @@
 .message {
     padding-top: 12px;
     height: 190px;
+    resize: none;
 }
 
 input, textarea {
     padding-left: 15px;
+    color: #f0d8d9;
 }
 
 textarea:focus, input:focus {
@@ -105,6 +107,7 @@ textarea:focus, input:focus {
     height: 36px;
     border-radius: 18px;
     background-color: #f0d8d9;
+    color: #2d303a;
 }
 
 .submit-form-btn:hover {

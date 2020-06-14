@@ -14,10 +14,10 @@
             </section>
             <section class="quote-form-container">
                 <form action="#" class="quote-form">
-                    <input type="text" name="name" class="name" placeholder="Name (Required)">
-                    <input type="text" name="email" required class="email" placeholder="Email (Required)">
+                    <input type="text" name="name" required pattern=".*[A-Za-z]" class="name" placeholder="Name (Required)">
+                    <input type="email" name="email" required class="email" placeholder="Email (Required)">
                     <input type="text" name="subject" class="subject" placeholder="Subject">
-                    <textarea name="message" class="message" required placeholder="Describe your project in detail..."></textarea>
+                    <textarea name="message" class="message" placeholder="Describe your project in detail..."></textarea>
                     <input type="submit" class="submit-form-btn"></p>
                 </form>
                 <div class="contact-info">
